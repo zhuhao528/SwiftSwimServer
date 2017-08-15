@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled 
+a374043aad1ac7289b03d293a8af40a4c667cd53 refs/heads/master
+fdda80c6b214425f5750e89636af022d2100890c refs/heads/revert-3-master
+2f51ec2a03db4060bf0a2fd35f98644a1ca27869 refs/tags/1.0.0
+2ec53d5864544d5a3cdfeb6034f40904172fe6f0 refs/tags/1.0.1
+79150c895e0d709b18d0c890cee71b30b84cb1b2 refs/tags/1.0.2
+497591f576a357bb4a17ce404c1a06fa4ac8a54c refs/tags/1.0.3
+^e2175e3fbf55852af5f6785a39803abd37b54b0a
+f9d9b82fe2f8ed5b449eabc4156ac5cbe590b0e1 refs/tags/1.0.4
+59f09aa560f8db79510e97cc2fabe1358acaf87f refs/tags/1.0.5
+d79b99e2068e843ca65b6d2cd2a305ebb29735d1 refs/tags/1.0.6
+9c3fcfa589d6c28be7bfa6baf1e9cb1675f712cc refs/tags/1.0.8
+f43aff80213e6db9830dcc518c22c54818781e45 refs/tags/1.0.9
+1f1e9a9025043f09ef9b0e686c4019cc9bb2fecd refs/tags/1.1.0
+005de61322c6d32c5f792f9dfc56a0eee44b2753 refs/tags/1.1.1
+da61d3b8dade7137f64051c37a57cf593afc0d6d refs/tags/1.1.2

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "d7898e63f12d704ecc6b665554cde965"
+build_time: [553934846, 348647000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-SMTP.git-9132372392332813665/Sources/SMTP.swift": [553934359, 0]

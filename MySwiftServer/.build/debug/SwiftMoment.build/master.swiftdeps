@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b3b4af78549a4ff4a795e1dd85971e2b"
+build_time: [553934719, 890702000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [553934359, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [553934359, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [553934359, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [553934359, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [553934359, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [553934359, 0]

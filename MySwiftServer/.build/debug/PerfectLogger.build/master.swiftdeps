@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7aeea1c44eca3c14aeffb3ea353db639"
+build_time: [553934725, 682891000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/Perfect_Logger.swift": [553934539, 0]

@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/master.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/arguments.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/arguments.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/arguments.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/arguments~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/arguments.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/DataBaseOperator.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/DataBaseOperator.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/DataBaseOperator.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/DataBaseOperator~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/DataBaseOperator.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/main.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/main.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/main.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/main.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/PerfectNoteOperator.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/PerfectNoteOperator.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/PerfectNoteOperator.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/PerfectNoteOperator~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySwiftServer.build/PerfectNoteOperator.swiftdeps"
+  }
+}

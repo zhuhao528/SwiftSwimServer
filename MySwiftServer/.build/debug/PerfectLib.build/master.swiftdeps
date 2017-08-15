@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "35f7673e75c39ef1a4afc03b6d07e769"
+build_time: [553934719, 742193000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [553934357, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [553934357, 0]

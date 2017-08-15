@@ -1,0 +1,627 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["OC11PerfectCURL11CURLRequest6Option", ""]
+- ["OC11PerfectCURL11CURLRequest6Option", "apply"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CURL"
+- !private "CURLOPT_AUTOREFERER"
+- !private "CURLOPT_CAINFO"
+- !private "CURLOPT_CAPATH"
+- !private "CURLOPT_CONNECTTIMEOUT"
+- !private "CURLOPT_COOKIE"
+- !private "CURLOPT_COOKIEFILE"
+- !private "CURLOPT_COOKIEJAR"
+- !private "CURLOPT_COPYPOSTFIELDS"
+- !private "CURLOPT_FAILONERROR"
+- !private "CURLOPT_FOLLOWLOCATION"
+- !private "CURLOPT_FTPPORT"
+- !private "CURLOPT_FTP_RESPONSE_TIMEOUT"
+- !private "CURLOPT_HTTPGET"
+- !private "CURLOPT_HTTPHEADER"
+- !private "CURLOPT_KEYPASSWD"
+- !private "CURLOPT_KRBLEVEL"
+- !private "CURLOPT_LOW_SPEED_LIMIT"
+- !private "CURLOPT_LOW_SPEED_TIME"
+- !private "CURLOPT_MAIL_FROM"
+- !private "CURLOPT_MAIL_RCPT"
+- !private "CURLOPT_MAXCONNECTS"
+- !private "CURLOPT_MAXREDIRS"
+- !private "CURLOPT_NOBODY"
+- !private "CURLOPT_PINNEDPUBLICKEY"
+- !private "CURLOPT_PORT"
+- !private "CURLOPT_POST"
+- !private "CURLOPT_POSTFIELDSIZE_LARGE"
+- !private "CURLOPT_POSTQUOTE"
+- !private "CURLOPT_PREQUOTE"
+- !private "CURLOPT_PROXY"
+- !private "CURLOPT_PROXYPORT"
+- !private "CURLOPT_PROXYUSERPWD"
+- !private "CURLOPT_PUT"
+- !private "CURLOPT_RANGE"
+- !private "CURLOPT_RESUME_FROM_LARGE"
+- !private "CURLOPT_SSH_PRIVATE_KEYFILE"
+- !private "CURLOPT_SSH_PUBLIC_KEYFILE"
+- !private "CURLOPT_SSLCERT"
+- !private "CURLOPT_SSLCERTTYPE"
+- !private "CURLOPT_SSLKEY"
+- !private "CURLOPT_SSLKEYTYPE"
+- !private "CURLOPT_SSLVERSION"
+- !private "CURLOPT_SSL_CIPHER_LIST"
+- !private "CURLOPT_SSL_VERIFYHOST"
+- !private "CURLOPT_SSL_VERIFYPEER"
+- !private "CURLOPT_TIMEOUT"
+- !private "CURLOPT_URL"
+- !private "CURLOPT_USERPWD"
+- "CURLRequest"
+- !private "CURL_SSLVERSION_TLSv1"
+- !private "CURL_SSLVERSION_TLSv1_1"
+- !private "CURL_SSLVERSION_TLSv1_2"
+- !private "Int"
+- !private "Int64"
+- !private "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "Header"]
+- !private ["Ps9AnyObject", "POSTFields"]
+- !private ["Ps9AnyObject", "append"]
+- !private ["Ps9AnyObject", "curl"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "postFields"]
+- !private ["Ps9AnyObject", "setOption"]
+- !private ["Ps9AnyObject", "utf8"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C11PerfectCURL4CURL", "setOption"]
+- !private ["C11PerfectCURL11CURLRequest", "Header"]
+- ["C11PerfectCURL11CURLRequest", "Option"]
+- !private ["C11PerfectCURL11CURLRequest", "POSTFields"]
+- !private ["C11PerfectCURL11CURLRequest", "curl"]
+- !private ["C11PerfectCURL11CURLRequest", "postFields"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "joined"]
+- !private ["Ps7CVarArg", "utf8"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "connect"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "custom"]
+- ["Ps23CustomStringConvertible", "delete"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "head"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- ["Ps23CustomStringConvertible", "options"]
+- ["Ps23CustomStringConvertible", "post"]
+- ["Ps23CustomStringConvertible", "put"]
+- ["Ps23CustomStringConvertible", "trace"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "connect"]
+- ["Ps9Equatable", "custom"]
+- ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "file"]
+- ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "head"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "options"]
+- ["Ps9Equatable", "post"]
+- ["Ps9Equatable", "put"]
+- !private ["Ps9Equatable", "standardName"]
+- ["Ps9Equatable", "tlsV1"]
+- ["Ps9Equatable", "tlsV1_1"]
+- ["Ps9Equatable", "tlsV1_2"]
+- ["Ps9Equatable", "trace"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", "value"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8"]
+- ["OVC11PerfectCURL11CURLRequest9POSTField9FieldType", "file"]
+- ["OVC11PerfectCURL11CURLRequest9POSTField9FieldType", "value"]
+- ["O11PerfectHTTP10HTTPMethod", "connect"]
+- ["O11PerfectHTTP10HTTPMethod", "custom"]
+- ["O11PerfectHTTP10HTTPMethod", "delete"]
+- !private ["O11PerfectHTTP10HTTPMethod", "description"]
+- ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["O11PerfectHTTP10HTTPMethod", "head"]
+- ["O11PerfectHTTP10HTTPMethod", "options"]
+- ["O11PerfectHTTP10HTTPMethod", "post"]
+- ["O11PerfectHTTP10HTTPMethod", "put"]
+- ["O11PerfectHTTP10HTTPMethod", "trace"]
+- !private ["O11PerfectHTTP17HTTPRequestHeader", "Name"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "connect"]
+- ["Ps8Hashable", "custom"]
+- ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "file"]
+- ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "head"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- ["Ps8Hashable", "options"]
+- ["Ps8Hashable", "post"]
+- ["Ps8Hashable", "put"]
+- !private ["Ps8Hashable", "standardName"]
+- ["Ps8Hashable", "tlsV1"]
+- ["Ps8Hashable", "tlsV1_1"]
+- ["Ps8Hashable", "tlsV1_2"]
+- ["Ps8Hashable", "trace"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", "value"]
+- !private ["Vs5Int64", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- !private ["P10PerfectLib15JSONConvertible", "forEach"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "isEmpty"]
+- !private ["P10PerfectLib15JSONConvertible", "joined"]
+- !private ["P10PerfectLib15JSONConvertible", "utf8"]
+- !private ["OC11PerfectCURL11CURLRequest8KBRLevel", "description"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "utf8"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "utf8"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "joined"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "utf8"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "utf8"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "utf8"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "utf8"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "utf8"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "utf8"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "utf8"]
+- !private ["OO11PerfectHTTP17HTTPRequestHeader4Name", "standardName"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "Array"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURL"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_AUTOREFERER"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_CAINFO"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_CAPATH"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_CONNECTTIMEOUT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_COOKIE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_COOKIEFILE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_COOKIEJAR"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_COPYPOSTFIELDS"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_FAILONERROR"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_FOLLOWLOCATION"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_FTPPORT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_FTP_RESPONSE_TIMEOUT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_HTTPGET"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_HTTPHEADER"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_KEYPASSWD"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_KRBLEVEL"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_LOW_SPEED_LIMIT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_LOW_SPEED_TIME"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_MAIL_FROM"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_MAIL_RCPT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_MAXCONNECTS"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_MAXREDIRS"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_NOBODY"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PINNEDPUBLICKEY"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PORT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_POST"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_POSTFIELDSIZE_LARGE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_POSTQUOTE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PREQUOTE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PROXY"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PROXYPORT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PROXYUSERPWD"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_PUT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_RANGE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_RESUME_FROM_LARGE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSH_PRIVATE_KEYFILE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSH_PUBLIC_KEYFILE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSLCERT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSLCERTTYPE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSLKEY"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSLKEYTYPE"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSLVERSION"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSL_CIPHER_LIST"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSL_VERIFYHOST"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_SSL_VERIFYPEER"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_TIMEOUT"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_URL"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURLOPT_USERPWD"]
+- ["OC11PerfectCURL11CURLRequest6Option", "CURLRequest"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURL_SSLVERSION_TLSv1"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURL_SSLVERSION_TLSv1_1"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "CURL_SSLVERSION_TLSv1_2"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "Int"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "Int64"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "String"]
+- ["OC11PerfectCURL11CURLRequest6Option", "addHeader"]
+- ["OC11PerfectCURL11CURLRequest6Option", "addHeaders"]
+- ["OC11PerfectCURL11CURLRequest6Option", "apply"]
+- ["OC11PerfectCURL11CURLRequest6Option", "autoReferer"]
+- ["OC11PerfectCURL11CURLRequest6Option", "connectTimeout"]
+- ["OC11PerfectCURL11CURLRequest6Option", "cookie"]
+- ["OC11PerfectCURL11CURLRequest6Option", "cookieFile"]
+- ["OC11PerfectCURL11CURLRequest6Option", "cookieJar"]
+- ["OC11PerfectCURL11CURLRequest6Option", "failOnError"]
+- ["OC11PerfectCURL11CURLRequest6Option", "followLocation"]
+- ["OC11PerfectCURL11CURLRequest6Option", "ftpPort"]
+- ["OC11PerfectCURL11CURLRequest6Option", "ftpPostCommands"]
+- ["OC11PerfectCURL11CURLRequest6Option", "ftpPreCommands"]
+- ["OC11PerfectCURL11CURLRequest6Option", "ftpResponseTimeout"]
+- !private ["OC11PerfectCURL11CURLRequest6Option", "headerAdd"]
+- ["OC11PerfectCURL11CURLRequest6Option", "httpMethod"]
+- ["OC11PerfectCURL11CURLRequest6Option", "krbLevel"]
+- ["OC11PerfectCURL11CURLRequest6Option", "lowSpeedLimit"]
+- ["OC11PerfectCURL11CURLRequest6Option", "lowSpeedTime"]
+- ["OC11PerfectCURL11CURLRequest6Option", "mailFrom"]
+- ["OC11PerfectCURL11CURLRequest6Option", "mailRcpt"]
+- ["OC11PerfectCURL11CURLRequest6Option", "maxConnects"]
+- ["OC11PerfectCURL11CURLRequest6Option", "maxRedirects"]
+- ["OC11PerfectCURL11CURLRequest6Option", "port"]
+- ["OC11PerfectCURL11CURLRequest6Option", "postData"]
+- ["OC11PerfectCURL11CURLRequest6Option", "postField"]
+- ["OC11PerfectCURL11CURLRequest6Option", "postString"]
+- ["OC11PerfectCURL11CURLRequest6Option", "proxy"]
+- ["OC11PerfectCURL11CURLRequest6Option", "proxyPort"]
+- ["OC11PerfectCURL11CURLRequest6Option", "proxyUserPwd"]
+- ["OC11PerfectCURL11CURLRequest6Option", "range"]
+- ["OC11PerfectCURL11CURLRequest6Option", "removeHeader"]
+- ["OC11PerfectCURL11CURLRequest6Option", "replaceHeader"]
+- ["OC11PerfectCURL11CURLRequest6Option", "resumeFrom"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sshPrivateKey"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sshPublicKey"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslCADirPath"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslCAFilePath"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslCert"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslCertType"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslCiphers"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslKey"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslKeyPwd"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslKeyType"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslPinnedPublicKey"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslVerifyHost"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslVerifyPeer"]
+- ["OC11PerfectCURL11CURLRequest6Option", "sslVersion"]
+- ["OC11PerfectCURL11CURLRequest6Option", "timeout"]
+- ["OC11PerfectCURL11CURLRequest6Option", "url"]
+- ["OC11PerfectCURL11CURLRequest6Option", "userPwd"]
+- !private ["VC11PerfectCURL11CURLRequest9POSTField", "mimeType"]
+- !private ["VC11PerfectCURL11CURLRequest9POSTField", "name"]
+- !private ["VC11PerfectCURL11CURLRequest9POSTField", "type"]
+- !private ["VC11PerfectCURL11CURLRequest9POSTField", "value"]
+- !private ["CC11PerfectCURL4CURL10POSTFields", "append"]
+- !private ["CC11PerfectCURL4CURL10POSTFields", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["OC11PerfectCURL11CURLRequest11SSLFileType", "description"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "utf8"]
+- ["O10PerfectNet9TLSMethod", "tlsV1"]
+- ["O10PerfectNet9TLSMethod", "tlsV1_1"]
+- ["O10PerfectNet9TLSMethod", "tlsV1_2"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "utf8"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "utf8"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "joined"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf8"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf8"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf8"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "connect"]
+- ["Ps9_Hashable", "custom"]
+- ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "description"]
+- ["Ps9_Hashable", "file"]
+- ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "head"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- ["Ps9_Hashable", "options"]
+- ["Ps9_Hashable", "post"]
+- ["Ps9_Hashable", "put"]
+- !private ["Ps9_Hashable", "standardName"]
+- ["Ps9_Hashable", "tlsV1"]
+- ["Ps9_Hashable", "tlsV1_1"]
+- ["Ps9_Hashable", "tlsV1_2"]
+- ["Ps9_Hashable", "trace"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", "value"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "joined"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "joined"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "utf8"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "joined"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "joined"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "C11PerfectCURL4CURL"
+- "C11PerfectCURL11CURLRequest"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "OVC11PerfectCURL11CURLRequest9POSTField9FieldType"
+- "O11PerfectHTTP10HTTPMethod"
+- !private "O11PerfectHTTP17HTTPRequestHeader"
+- "Ps8Hashable"
+- !private "Vs5Int64"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "OC11PerfectCURL11CURLRequest8KBRLevel"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "OO11PerfectHTTP17HTTPRequestHeader4Name"
+- "OC11PerfectCURL11CURLRequest6Option"
+- !private "VC11PerfectCURL11CURLRequest9POSTField"
+- !private "CC11PerfectCURL4CURL10POSTFields"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "OC11PerfectCURL11CURLRequest11SSLFileType"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- "O10PerfectNet9TLSMethod"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectLib.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "6b2599a702a4b10b004022803518477c"

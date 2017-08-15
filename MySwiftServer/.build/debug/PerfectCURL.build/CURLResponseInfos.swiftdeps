@@ -1,0 +1,536 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CURLResponseInfo"
+provides-nominal:
+- "P11PerfectCURL16CURLResponseInfo"
+- "OOC11PerfectCURL12CURLResponse4Info11StringValue"
+- "OOC11PerfectCURL12CURLResponse4Info8IntValue"
+- "OOC11PerfectCURL12CURLResponse4Info11DoubleValue"
+provides-member:
+- ["P11PerfectCURL16CURLResponseInfo", ""]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", ""]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", ""]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "CURLE_OK"
+- "CURLINFO"
+- !private "CURLINFO_APPCONNECT_TIME"
+- !private "CURLINFO_CONDITION_UNMET"
+- !private "CURLINFO_CONNECT_TIME"
+- !private "CURLINFO_CONTENT_LENGTH_DOWNLOAD"
+- !private "CURLINFO_CONTENT_LENGTH_UPLOAD"
+- !private "CURLINFO_CONTENT_TYPE"
+- !private "CURLINFO_EFFECTIVE_URL"
+- !private "CURLINFO_FILETIME"
+- !private "CURLINFO_FTP_ENTRY_PATH"
+- !private "CURLINFO_HEADER_SIZE"
+- !private "CURLINFO_HTTPAUTH_AVAIL"
+- !private "CURLINFO_HTTP_CONNECTCODE"
+- !private "CURLINFO_LOCAL_IP"
+- !private "CURLINFO_LOCAL_PORT"
+- !private "CURLINFO_NAMELOOKUP_TIME"
+- !private "CURLINFO_NUM_CONNECTS"
+- !private "CURLINFO_OS_ERRNO"
+- !private "CURLINFO_PRETRANSFER_TIME"
+- !private "CURLINFO_PRIMARY_IP"
+- !private "CURLINFO_PRIMARY_PORT"
+- !private "CURLINFO_PROXYAUTH_AVAIL"
+- !private "CURLINFO_REDIRECT_COUNT"
+- !private "CURLINFO_REDIRECT_TIME"
+- !private "CURLINFO_REDIRECT_URL"
+- !private "CURLINFO_REQUEST_SIZE"
+- !private "CURLINFO_RESPONSE_CODE"
+- !private "CURLINFO_SIZE_DOWNLOAD"
+- !private "CURLINFO_SIZE_UPLOAD"
+- !private "CURLINFO_SPEED_DOWNLOAD"
+- !private "CURLINFO_SPEED_UPLOAD"
+- !private "CURLINFO_SSL_VERIFYRESULT"
+- !private "CURLINFO_STARTTRANSFER_TIME"
+- !private "CURLINFO_TOTAL_TIME"
+- "CURLResponse"
+- "CURLResponseInfo"
+- !private "CURLcode"
+- "Double"
+- "Int"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "curl"]
+- !private ["Ps9AnyObject", "getInfo"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C11PerfectCURL4CURL", "getInfo"]
+- ["C11PerfectCURL12CURLResponse", "Info"]
+- !private ["C11PerfectCURL12CURLResponse", "curl"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLE_OK"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_APPCONNECT_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_CONDITION_UNMET"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_CONNECT_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_CONTENT_LENGTH_DOWNLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_CONTENT_LENGTH_UPLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_CONTENT_TYPE"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_EFFECTIVE_URL"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_FILETIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_FTP_ENTRY_PATH"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_HEADER_SIZE"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_HTTPAUTH_AVAIL"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_HTTP_CONNECTCODE"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_LOCAL_IP"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_LOCAL_PORT"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_NAMELOOKUP_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_NUM_CONNECTS"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_OS_ERRNO"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_PRETRANSFER_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_PRIMARY_IP"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_PRIMARY_PORT"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_PROXYAUTH_AVAIL"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_REDIRECT_COUNT"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_REDIRECT_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_REDIRECT_URL"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_REQUEST_SIZE"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_RESPONSE_CODE"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_SIZE_DOWNLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_SIZE_UPLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_SPEED_DOWNLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_SPEED_UPLOAD"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_SSL_VERIFYRESULT"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_STARTTRANSFER_TIME"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "CURLINFO_TOTAL_TIME"]
+- ["P11PerfectCURL16CURLResponseInfo", "CURLResponse"]
+- ["P11PerfectCURL16CURLResponseInfo", "ValueType"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "appConnectTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "conditionUnmet"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "connectTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "contentLengthDownload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "contentLengthUpload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "contentType"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "fileTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "ftpEntryPath"]
+- ["P11PerfectCURL16CURLResponseInfo", "get"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "headerSize"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "httpAuthAvail"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "httpConnectCode"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "infoValue"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "localIP"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "localPort"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "nameLookupTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "numConnects"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "osErrno"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "preTransferTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "primaryIP"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "primaryPort"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "proxyAuthAvail"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "redirectCount"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "redirectTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "redirectURL"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "requestSize"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "responseCode"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "sizeDownload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "sizeUpload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "speedDownload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "speedUpload"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "sslVerifyResult"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "startTransferTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "totalTime"]
+- !private ["P11PerfectCURL16CURLResponseInfo", "url"]
+- ["P11PerfectCURL16CURLResponseInfo", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLE_OK"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_APPCONNECT_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_CONNECT_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_CONTENT_LENGTH_DOWNLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_CONTENT_LENGTH_UPLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_NAMELOOKUP_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_PRETRANSFER_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_REDIRECT_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_SIZE_DOWNLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_SIZE_UPLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_SPEED_DOWNLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_SPEED_UPLOAD"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_STARTTRANSFER_TIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLINFO_TOTAL_TIME"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLResponse"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "CURLcode"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "Double"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "ValueType"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "appConnectTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "connectTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "contentLengthDownload"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "contentLengthUpload"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "deinit"]
+- ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "get"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "infoValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "nameLookupTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "preTransferTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "redirectTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "sizeDownload"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "sizeUpload"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "speedDownload"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "speedUpload"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "startTransferTime"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11DoubleValue", "totalTime"]
+- !private ["Ps9Equatable", "CURLE_OK"]
+- !private ["Ps9Equatable", "CURLINFO_APPCONNECT_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_CONDITION_UNMET"]
+- !private ["Ps9Equatable", "CURLINFO_CONNECT_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_CONTENT_LENGTH_DOWNLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_CONTENT_LENGTH_UPLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_CONTENT_TYPE"]
+- !private ["Ps9Equatable", "CURLINFO_EFFECTIVE_URL"]
+- !private ["Ps9Equatable", "CURLINFO_FILETIME"]
+- !private ["Ps9Equatable", "CURLINFO_FTP_ENTRY_PATH"]
+- !private ["Ps9Equatable", "CURLINFO_HEADER_SIZE"]
+- !private ["Ps9Equatable", "CURLINFO_HTTPAUTH_AVAIL"]
+- !private ["Ps9Equatable", "CURLINFO_HTTP_CONNECTCODE"]
+- !private ["Ps9Equatable", "CURLINFO_LOCAL_IP"]
+- !private ["Ps9Equatable", "CURLINFO_LOCAL_PORT"]
+- !private ["Ps9Equatable", "CURLINFO_NAMELOOKUP_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_NUM_CONNECTS"]
+- !private ["Ps9Equatable", "CURLINFO_OS_ERRNO"]
+- !private ["Ps9Equatable", "CURLINFO_PRETRANSFER_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_PRIMARY_IP"]
+- !private ["Ps9Equatable", "CURLINFO_PRIMARY_PORT"]
+- !private ["Ps9Equatable", "CURLINFO_PROXYAUTH_AVAIL"]
+- !private ["Ps9Equatable", "CURLINFO_REDIRECT_COUNT"]
+- !private ["Ps9Equatable", "CURLINFO_REDIRECT_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_REDIRECT_URL"]
+- !private ["Ps9Equatable", "CURLINFO_REQUEST_SIZE"]
+- !private ["Ps9Equatable", "CURLINFO_RESPONSE_CODE"]
+- !private ["Ps9Equatable", "CURLINFO_SIZE_DOWNLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_SIZE_UPLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_SPEED_DOWNLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_SPEED_UPLOAD"]
+- !private ["Ps9Equatable", "CURLINFO_SSL_VERIFYRESULT"]
+- !private ["Ps9Equatable", "CURLINFO_STARTTRANSFER_TIME"]
+- !private ["Ps9Equatable", "CURLINFO_TOTAL_TIME"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appConnectTime"]
+- !private ["Ps9Equatable", "conditionUnmet"]
+- !private ["Ps9Equatable", "connectTime"]
+- !private ["Ps9Equatable", "contentLengthDownload"]
+- !private ["Ps9Equatable", "contentLengthUpload"]
+- !private ["Ps9Equatable", "contentType"]
+- !private ["Ps9Equatable", "fileTime"]
+- !private ["Ps9Equatable", "ftpEntryPath"]
+- ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "headerSize"]
+- !private ["Ps9Equatable", "httpAuthAvail"]
+- !private ["Ps9Equatable", "httpConnectCode"]
+- !private ["Ps9Equatable", "infoValue"]
+- !private ["Ps9Equatable", "localIP"]
+- !private ["Ps9Equatable", "localPort"]
+- !private ["Ps9Equatable", "nameLookupTime"]
+- !private ["Ps9Equatable", "numConnects"]
+- !private ["Ps9Equatable", "osErrno"]
+- !private ["Ps9Equatable", "preTransferTime"]
+- !private ["Ps9Equatable", "primaryIP"]
+- !private ["Ps9Equatable", "primaryPort"]
+- !private ["Ps9Equatable", "proxyAuthAvail"]
+- !private ["Ps9Equatable", "redirectCount"]
+- !private ["Ps9Equatable", "redirectTime"]
+- !private ["Ps9Equatable", "redirectURL"]
+- !private ["Ps9Equatable", "requestSize"]
+- !private ["Ps9Equatable", "responseCode"]
+- !private ["Ps9Equatable", "sizeDownload"]
+- !private ["Ps9Equatable", "sizeUpload"]
+- !private ["Ps9Equatable", "speedDownload"]
+- !private ["Ps9Equatable", "speedUpload"]
+- !private ["Ps9Equatable", "sslVerifyResult"]
+- !private ["Ps9Equatable", "startTransferTime"]
+- !private ["Ps9Equatable", "totalTime"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "CURLE_OK"]
+- !private ["Ps8Hashable", "CURLINFO_APPCONNECT_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_CONDITION_UNMET"]
+- !private ["Ps8Hashable", "CURLINFO_CONNECT_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_CONTENT_LENGTH_DOWNLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_CONTENT_LENGTH_UPLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_CONTENT_TYPE"]
+- !private ["Ps8Hashable", "CURLINFO_EFFECTIVE_URL"]
+- !private ["Ps8Hashable", "CURLINFO_FILETIME"]
+- !private ["Ps8Hashable", "CURLINFO_FTP_ENTRY_PATH"]
+- !private ["Ps8Hashable", "CURLINFO_HEADER_SIZE"]
+- !private ["Ps8Hashable", "CURLINFO_HTTPAUTH_AVAIL"]
+- !private ["Ps8Hashable", "CURLINFO_HTTP_CONNECTCODE"]
+- !private ["Ps8Hashable", "CURLINFO_LOCAL_IP"]
+- !private ["Ps8Hashable", "CURLINFO_LOCAL_PORT"]
+- !private ["Ps8Hashable", "CURLINFO_NAMELOOKUP_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_NUM_CONNECTS"]
+- !private ["Ps8Hashable", "CURLINFO_OS_ERRNO"]
+- !private ["Ps8Hashable", "CURLINFO_PRETRANSFER_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_PRIMARY_IP"]
+- !private ["Ps8Hashable", "CURLINFO_PRIMARY_PORT"]
+- !private ["Ps8Hashable", "CURLINFO_PROXYAUTH_AVAIL"]
+- !private ["Ps8Hashable", "CURLINFO_REDIRECT_COUNT"]
+- !private ["Ps8Hashable", "CURLINFO_REDIRECT_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_REDIRECT_URL"]
+- !private ["Ps8Hashable", "CURLINFO_REQUEST_SIZE"]
+- !private ["Ps8Hashable", "CURLINFO_RESPONSE_CODE"]
+- !private ["Ps8Hashable", "CURLINFO_SIZE_DOWNLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_SIZE_UPLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_SPEED_DOWNLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_SPEED_UPLOAD"]
+- !private ["Ps8Hashable", "CURLINFO_SSL_VERIFYRESULT"]
+- !private ["Ps8Hashable", "CURLINFO_STARTTRANSFER_TIME"]
+- !private ["Ps8Hashable", "CURLINFO_TOTAL_TIME"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appConnectTime"]
+- !private ["Ps8Hashable", "conditionUnmet"]
+- !private ["Ps8Hashable", "connectTime"]
+- !private ["Ps8Hashable", "contentLengthDownload"]
+- !private ["Ps8Hashable", "contentLengthUpload"]
+- !private ["Ps8Hashable", "contentType"]
+- !private ["Ps8Hashable", "fileTime"]
+- !private ["Ps8Hashable", "ftpEntryPath"]
+- ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "headerSize"]
+- !private ["Ps8Hashable", "httpAuthAvail"]
+- !private ["Ps8Hashable", "httpConnectCode"]
+- !private ["Ps8Hashable", "infoValue"]
+- !private ["Ps8Hashable", "localIP"]
+- !private ["Ps8Hashable", "localPort"]
+- !private ["Ps8Hashable", "nameLookupTime"]
+- !private ["Ps8Hashable", "numConnects"]
+- !private ["Ps8Hashable", "osErrno"]
+- !private ["Ps8Hashable", "preTransferTime"]
+- !private ["Ps8Hashable", "primaryIP"]
+- !private ["Ps8Hashable", "primaryPort"]
+- !private ["Ps8Hashable", "proxyAuthAvail"]
+- !private ["Ps8Hashable", "redirectCount"]
+- !private ["Ps8Hashable", "redirectTime"]
+- !private ["Ps8Hashable", "redirectURL"]
+- !private ["Ps8Hashable", "requestSize"]
+- !private ["Ps8Hashable", "responseCode"]
+- !private ["Ps8Hashable", "sizeDownload"]
+- !private ["Ps8Hashable", "sizeUpload"]
+- !private ["Ps8Hashable", "speedDownload"]
+- !private ["Ps8Hashable", "speedUpload"]
+- !private ["Ps8Hashable", "sslVerifyResult"]
+- !private ["Ps8Hashable", "startTransferTime"]
+- !private ["Ps8Hashable", "totalTime"]
+- !private ["Ps8Hashable", "url"]
+- ["OC11PerfectCURL12CURLResponse4Info", "DoubleValue"]
+- ["OC11PerfectCURL12CURLResponse4Info", "IntValue"]
+- ["OC11PerfectCURL12CURLResponse4Info", "StringValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLE_OK"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_CONDITION_UNMET"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_FILETIME"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_HEADER_SIZE"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_HTTPAUTH_AVAIL"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_HTTP_CONNECTCODE"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_LOCAL_PORT"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_NUM_CONNECTS"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_OS_ERRNO"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_PRIMARY_PORT"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_PROXYAUTH_AVAIL"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_REDIRECT_COUNT"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_REQUEST_SIZE"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_RESPONSE_CODE"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLINFO_SSL_VERIFYRESULT"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLResponse"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "CURLcode"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "Int"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "ValueType"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "conditionUnmet"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "deinit"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "fileTime"]
+- ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "get"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "headerSize"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "httpAuthAvail"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "httpConnectCode"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "infoValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "localPort"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "numConnects"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "osErrno"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "primaryPort"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "proxyAuthAvail"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "redirectCount"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "requestSize"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "responseCode"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info8IntValue", "sslVerifyResult"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLE_OK"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_CONTENT_TYPE"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_EFFECTIVE_URL"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_FTP_ENTRY_PATH"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_LOCAL_IP"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_PRIMARY_IP"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLINFO_REDIRECT_URL"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLResponse"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "CURLcode"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "String"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "ValueType"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "contentType"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "deinit"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "ftpEntryPath"]
+- ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "get"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "infoValue"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "localIP"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "primaryIP"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "redirectURL"]
+- !private ["OOC11PerfectCURL12CURLResponse4Info11StringValue", "url"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CURLE_OK"]
+- !private ["Ps9_Hashable", "CURLINFO_APPCONNECT_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_CONDITION_UNMET"]
+- !private ["Ps9_Hashable", "CURLINFO_CONNECT_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_CONTENT_LENGTH_DOWNLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_CONTENT_LENGTH_UPLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_CONTENT_TYPE"]
+- !private ["Ps9_Hashable", "CURLINFO_EFFECTIVE_URL"]
+- !private ["Ps9_Hashable", "CURLINFO_FILETIME"]
+- !private ["Ps9_Hashable", "CURLINFO_FTP_ENTRY_PATH"]
+- !private ["Ps9_Hashable", "CURLINFO_HEADER_SIZE"]
+- !private ["Ps9_Hashable", "CURLINFO_HTTPAUTH_AVAIL"]
+- !private ["Ps9_Hashable", "CURLINFO_HTTP_CONNECTCODE"]
+- !private ["Ps9_Hashable", "CURLINFO_LOCAL_IP"]
+- !private ["Ps9_Hashable", "CURLINFO_LOCAL_PORT"]
+- !private ["Ps9_Hashable", "CURLINFO_NAMELOOKUP_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_NUM_CONNECTS"]
+- !private ["Ps9_Hashable", "CURLINFO_OS_ERRNO"]
+- !private ["Ps9_Hashable", "CURLINFO_PRETRANSFER_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_PRIMARY_IP"]
+- !private ["Ps9_Hashable", "CURLINFO_PRIMARY_PORT"]
+- !private ["Ps9_Hashable", "CURLINFO_PROXYAUTH_AVAIL"]
+- !private ["Ps9_Hashable", "CURLINFO_REDIRECT_COUNT"]
+- !private ["Ps9_Hashable", "CURLINFO_REDIRECT_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_REDIRECT_URL"]
+- !private ["Ps9_Hashable", "CURLINFO_REQUEST_SIZE"]
+- !private ["Ps9_Hashable", "CURLINFO_RESPONSE_CODE"]
+- !private ["Ps9_Hashable", "CURLINFO_SIZE_DOWNLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_SIZE_UPLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_SPEED_DOWNLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_SPEED_UPLOAD"]
+- !private ["Ps9_Hashable", "CURLINFO_SSL_VERIFYRESULT"]
+- !private ["Ps9_Hashable", "CURLINFO_STARTTRANSFER_TIME"]
+- !private ["Ps9_Hashable", "CURLINFO_TOTAL_TIME"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "appConnectTime"]
+- !private ["Ps9_Hashable", "conditionUnmet"]
+- !private ["Ps9_Hashable", "connectTime"]
+- !private ["Ps9_Hashable", "contentLengthDownload"]
+- !private ["Ps9_Hashable", "contentLengthUpload"]
+- !private ["Ps9_Hashable", "contentType"]
+- !private ["Ps9_Hashable", "fileTime"]
+- !private ["Ps9_Hashable", "ftpEntryPath"]
+- ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "headerSize"]
+- !private ["Ps9_Hashable", "httpAuthAvail"]
+- !private ["Ps9_Hashable", "httpConnectCode"]
+- !private ["Ps9_Hashable", "infoValue"]
+- !private ["Ps9_Hashable", "localIP"]
+- !private ["Ps9_Hashable", "localPort"]
+- !private ["Ps9_Hashable", "nameLookupTime"]
+- !private ["Ps9_Hashable", "numConnects"]
+- !private ["Ps9_Hashable", "osErrno"]
+- !private ["Ps9_Hashable", "preTransferTime"]
+- !private ["Ps9_Hashable", "primaryIP"]
+- !private ["Ps9_Hashable", "primaryPort"]
+- !private ["Ps9_Hashable", "proxyAuthAvail"]
+- !private ["Ps9_Hashable", "redirectCount"]
+- !private ["Ps9_Hashable", "redirectTime"]
+- !private ["Ps9_Hashable", "redirectURL"]
+- !private ["Ps9_Hashable", "requestSize"]
+- !private ["Ps9_Hashable", "responseCode"]
+- !private ["Ps9_Hashable", "sizeDownload"]
+- !private ["Ps9_Hashable", "sizeUpload"]
+- !private ["Ps9_Hashable", "speedDownload"]
+- !private ["Ps9_Hashable", "speedUpload"]
+- !private ["Ps9_Hashable", "sslVerifyResult"]
+- !private ["Ps9_Hashable", "startTransferTime"]
+- !private ["Ps9_Hashable", "totalTime"]
+- !private ["Ps9_Hashable", "url"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "C11PerfectCURL4CURL"
+- "C11PerfectCURL12CURLResponse"
+- "P11PerfectCURL16CURLResponseInfo"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "OOC11PerfectCURL12CURLResponse4Info11DoubleValue"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "OC11PerfectCURL12CURLResponse4Info"
+- "OOC11PerfectCURL12CURLResponse4Info8IntValue"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps25LosslessStringConvertible"
+- "OOC11PerfectCURL12CURLResponse4Info11StringValue"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectLib.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "99091a19fce1faff01ba5adf653a1935"

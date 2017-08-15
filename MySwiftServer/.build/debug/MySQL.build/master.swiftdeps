@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fbd71efd8af24bde911332a0f3016ce5"
+build_time: [553934719, 887581000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/MySQL/MySQL.swift": [553934357, 0]

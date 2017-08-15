@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "38af034367df91de7815c190d1417063"
+build_time: [553934729, 612169000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HPACK.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Request.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Response.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServer.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerEx.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [553934356, 0]

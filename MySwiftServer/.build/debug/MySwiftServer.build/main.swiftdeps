@@ -1,0 +1,520 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "server"
+- "routes"
+- "valueKey"
+- "api"
+- "api1Routes"
+- "api2Routes"
+- "convertJons"
+- "requestHandler"
+- "fileDir"
+- "Filter404"
+provides-nominal:
+- "V13MySwiftServer9Filter404"
+provides-member:
+- ["V13MySwiftServer9Filter404", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- ">"
+- "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CourseOperator"
+- "Dictionary"
+- "Dir"
+- "File"
+- "Filter404"
+- "FloatLiteralType"
+- "HTTPRequest"
+- "HTTPResponse"
+- "HTTPResponseFilter"
+- "HTTPResponseFilterResult"
+- "HTTPResponseHeader"
+- "HTTPServer"
+- "IntegerLiteralType"
+- "LogFile"
+- "MimeType"
+- "PerfectError"
+- "RequestLogger"
+- "Routes"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "UserOperator"
+- "api"
+- "api1Routes"
+- "api2Routes"
+- "configureServer"
+- "convertJons"
+- "fileDir"
+- "print"
+- "requestHandler"
+- "routeTrailingWildcardKey"
+- "routes"
+- "server"
+- "valueKey"
+depends-member:
+- ["Ps9AnyObject", "accountDelete"]
+- ["Ps9AnyObject", "addCourse"]
+- ["Ps9AnyObject", "addRoutes"]
+- ["Ps9AnyObject", "contentType"]
+- ["Ps9AnyObject", "deleteCourse"]
+- ["Ps9AnyObject", "documentRoot"]
+- ["Ps9AnyObject", "exportForm"]
+- ["Ps9AnyObject", "fieldName"]
+- ["Ps9AnyObject", "fileName"]
+- ["Ps9AnyObject", "fileSize"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "insertUserInfo"]
+- ["Ps9AnyObject", "moveTo"]
+- ["Ps9AnyObject", "queryCourseList"]
+- ["Ps9AnyObject", "queryUserCourseList"]
+- ["Ps9AnyObject", "queryUserInfo"]
+- ["Ps9AnyObject", "queryUserList"]
+- ["Ps9AnyObject", "readSomeBytes"]
+- ["Ps9AnyObject", "serverPort"]
+- ["Ps9AnyObject", "setRequestFilters"]
+- ["Ps9AnyObject", "setResponseFilters"]
+- ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", "start"]
+- ["Ps9AnyObject", "tmpFileName"]
+- ["Ps9AnyObject", "updateCourse"]
+- ["Ps9AnyObject", "updateUserInfo"]
+- ["Sa", "append"]
+- ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- ["C13MySwiftServer12BaseOperator", "accountDelete"]
+- ["C13MySwiftServer12BaseOperator", "addCourse"]
+- ["C13MySwiftServer12BaseOperator", "deleteCourse"]
+- ["C13MySwiftServer12BaseOperator", "exportForm"]
+- ["C13MySwiftServer12BaseOperator", "init"]
+- ["C13MySwiftServer12BaseOperator", "insertUserInfo"]
+- ["C13MySwiftServer12BaseOperator", "queryCourseList"]
+- ["C13MySwiftServer12BaseOperator", "queryUserCourseList"]
+- ["C13MySwiftServer12BaseOperator", "queryUserInfo"]
+- ["C13MySwiftServer12BaseOperator", "queryUserList"]
+- ["C13MySwiftServer12BaseOperator", "updateCourse"]
+- ["C13MySwiftServer12BaseOperator", "updateUserInfo"]
+- ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "count"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "removeAll"]
+- ["CC11PerfectHTTP10MimeReader8BodySpec", "contentType"]
+- ["CC11PerfectHTTP10MimeReader8BodySpec", "fieldName"]
+- ["CC11PerfectHTTP10MimeReader8BodySpec", "fileName"]
+- ["CC11PerfectHTTP10MimeReader8BodySpec", "fileSize"]
+- ["CC11PerfectHTTP10MimeReader8BodySpec", "tmpFileName"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "append"]
+- ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonEncodedString"]
+- !private ["Ps7CVarArg", "removeAll"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps10Collection", "append"]
+- ["Ps10Collection", "count"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "jsonEncodedString"]
+- !private ["Ps10Collection", "removeAll"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["C13MySwiftServer14CourseOperator", "addCourse"]
+- ["C13MySwiftServer14CourseOperator", "deleteCourse"]
+- ["C13MySwiftServer14CourseOperator", "exportForm"]
+- ["C13MySwiftServer14CourseOperator", "init"]
+- ["C13MySwiftServer14CourseOperator", "queryCourseList"]
+- ["C13MySwiftServer14CourseOperator", "queryUserCourseList"]
+- ["C13MySwiftServer14CourseOperator", "updateCourse"]
+- ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonEncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "jsonEncodedString"]
+- !private ["Ps17CustomReflectable", "removeAll"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "delete"]
+- ["Ps23CustomStringConvertible", "forExtension"]
+- ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "internalServerError"]
+- !private ["Ps23CustomStringConvertible", "jsonEncodedString"]
+- ["Ps23CustomStringConvertible", "movedPermanently"]
+- ["Ps23CustomStringConvertible", "notFound"]
+- ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "jsonEncodedString"]
+- ["Vs10Dictionary", "subscript"]
+- ["V10PerfectLib3Dir", "create"]
+- ["V10PerfectLib3Dir", "init"]
+- ["V10PerfectLib3Dir", "path"]
+- ["V10PerfectLib3Dir", "workingDir"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "continue"]
+- ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "done"]
+- ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "high"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "low"]
+- ["Ps9Equatable", "post"]
+- ["Ps5Error", "networkError"]
+- ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeAll"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "jsonEncodedString"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "forExtension"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "forExtension"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "forExtension"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C10PerfectLib4File", "init"]
+- ["C10PerfectLib4File", "moveTo"]
+- ["C10PerfectLib4File", "readSomeBytes"]
+- ["C10PerfectLib4File", "size"]
+- ["V13MySwiftServer9Filter404", "HTTPResponse"]
+- ["V13MySwiftServer9Filter404", "HTTPResponseFilterResult"]
+- ["V13MySwiftServer9Filter404", "deinit"]
+- ["V13MySwiftServer9Filter404", "filterBody"]
+- ["V13MySwiftServer9Filter404", "filterHeaders"]
+- ["V13MySwiftServer9Filter404", "init"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "high"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "low"]
+- ["O11PerfectHTTP10HTTPMethod", "delete"]
+- ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["O11PerfectHTTP10HTTPMethod", "post"]
+- ["P11PerfectHTTP11HTTPRequest", "documentRoot"]
+- ["P11PerfectHTTP11HTTPRequest", "param"]
+- !private ["P11PerfectHTTP11HTTPRequest", "params"]
+- ["P11PerfectHTTP11HTTPRequest", "path"]
+- ["P11PerfectHTTP11HTTPRequest", "postFileUploads"]
+- ["P11PerfectHTTP11HTTPRequest", "urlVariables"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "init"]
+- ["P11PerfectHTTP12HTTPResponse", "appendBody"]
+- !private ["P11PerfectHTTP12HTTPResponse", "bodyBytes"]
+- ["P11PerfectHTTP12HTTPResponse", "completed"]
+- !private ["P11PerfectHTTP12HTTPResponse", "request"]
+- ["P11PerfectHTTP12HTTPResponse", "setBody"]
+- ["P11PerfectHTTP12HTTPResponse", "setHeader"]
+- ["P11PerfectHTTP12HTTPResponse", "status"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterBody"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterHeaders"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "init"]
+- ["P11PerfectHTTP18HTTPResponseFilter", ""]
+- !private ["O11PerfectHTTP24HTTPResponseFilterResult", "continue"]
+- !private ["O11PerfectHTTP24HTTPResponseFilterResult", "done"]
+- ["O11PerfectHTTP18HTTPResponseHeader", "Name"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "internalServerError"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "movedPermanently"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "notFound"]
+- ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
+- ["C17PerfectHTTPServer10HTTPServer", "documentRoot"]
+- ["C17PerfectHTTPServer10HTTPServer", "init"]
+- ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
+- ["C17PerfectHTTPServer10HTTPServer", "setRequestFilters"]
+- ["C17PerfectHTTPServer10HTTPServer", "setResponseFilters"]
+- ["C17PerfectHTTPServer10HTTPServer", "start"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "continue"]
+- ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "done"]
+- ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "high"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "low"]
+- ["Ps8Hashable", "post"]
+- ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- ["P10PerfectLib15JSONConvertible", "append"]
+- ["P10PerfectLib15JSONConvertible", "count"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
+- !private ["P10PerfectLib15JSONConvertible", "removeAll"]
+- ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["V13PerfectLogger7LogFile", "debug"]
+- ["V13PerfectLogger7LogFile", "error"]
+- ["V13PerfectLogger7LogFile", "info"]
+- ["V13PerfectLogger7LogFile", "location"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["V11PerfectHTTP8MimeType", "forExtension"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "count"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "removeAll"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentLength"]
+- ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentType"]
+- ["OO11PerfectHTTP18HTTPResponseHeader4Name", "location"]
+- ["O10PerfectLib12PerfectError", "networkError"]
+- ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "count"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "removeAll"]
+- ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "removeAll"]
+- ["C20PerfectRequestLogger13RequestLogger", "init"]
+- ["V11PerfectHTTP6Routes", "add"]
+- ["V11PerfectHTTP6Routes", "init"]
+- ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "jsonEncodedString"]
+- !private ["Ps8Sequence", "removeAll"]
+- ["Ps8Sequence", "subscript"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C13MySwiftServer12UserOperator", "accountDelete"]
+- ["C13MySwiftServer12UserOperator", "init"]
+- ["C13MySwiftServer12UserOperator", "insertUserInfo"]
+- ["C13MySwiftServer12UserOperator", "queryUserInfo"]
+- ["C13MySwiftServer12UserOperator", "queryUserList"]
+- ["C13MySwiftServer12UserOperator", "updateUserInfo"]
+- ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "count"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "removeAll"]
+- ["Ps23_BidirectionalIndexable", "append"]
+- ["Ps23_BidirectionalIndexable", "count"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "removeAll"]
+- ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "continue"]
+- ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "done"]
+- ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "high"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "low"]
+- ["Ps9_Hashable", "post"]
+- ["Ps10_Indexable", "append"]
+- ["Ps10_Indexable", "count"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "jsonEncodedString"]
+- !private ["Ps10_Indexable", "removeAll"]
+- ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "append"]
+- ["Ps14_IndexableBase", "count"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "jsonEncodedString"]
+- !private ["Ps14_IndexableBase", "removeAll"]
+- ["Ps14_IndexableBase", "subscript"]
+- ["Ps17_MutableIndexable", "append"]
+- ["Ps17_MutableIndexable", "count"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "removeAll"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "append"]
+- ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonEncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps22_RandomAccessIndexable", "append"]
+- ["Ps22_RandomAccessIndexable", "count"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "removeAll"]
+- ["Ps26_RangeReplaceableIndexable", "append"]
+- ["Ps26_RangeReplaceableIndexable", "count"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "removeAll"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "C13MySwiftServer12BaseOperator"
+- "Ps23BidirectionalCollection"
+- "CC11PerfectHTTP10MimeReader8BodySpec"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "C13MySwiftServer14CourseOperator"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "V10PerfectLib3Dir"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C10PerfectLib4File"
+- "V13MySwiftServer9Filter404"
+- "O11PerfectHTTP18HTTPFilterPriority"
+- "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP17HTTPRequestFilter"
+- "P11PerfectHTTP12HTTPResponse"
+- "P11PerfectHTTP18HTTPResponseFilter"
+- !private "O11PerfectHTTP24HTTPResponseFilterResult"
+- "O11PerfectHTTP18HTTPResponseHeader"
+- "O11PerfectHTTP18HTTPResponseStatus"
+- "C17PerfectHTTPServer10HTTPServer"
+- "Ps8Hashable"
+- "P10PerfectLib15JSONConvertible"
+- "V13PerfectLogger7LogFile"
+- "Ps25LosslessStringConvertible"
+- "V11PerfectHTTP8MimeType"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "OO11PerfectHTTP18HTTPResponseHeader4Name"
+- "O10PerfectLib12PerfectError"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "C20PerfectRequestLogger13RequestLogger"
+- "V11PerfectHTTP6Routes"
+- "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C13MySwiftServer12UserOperator"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/MySQL.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectLib.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectLogger.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/SwiftMoment.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/typelib.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/my_command.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql/psi/psi_base.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/usr/local/include/mysql/mysql.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql_com.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql_version.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql/plugin_auth_common.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/binary_log_types.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/my_list.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/usr/local/Cellar/mysql/5.7.18_1/include/mysql/mysql/psi/psi_memory.h"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap"
+interface-hash: "829699f0ff3a8c772a5a6eff7bf085a8"

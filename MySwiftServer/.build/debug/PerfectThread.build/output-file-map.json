@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Promise.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}

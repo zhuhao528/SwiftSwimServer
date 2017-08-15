@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2499e2fb71f339e325d7adbec6a6ad3b"
+build_time: [553934846, 963904000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/arguments.swift": [544728866, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/DataBaseOperator.swift": [552470713, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/main.swift": [553933572, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/Sources/PerfectNoteOperator.swift": [553933726, 0]

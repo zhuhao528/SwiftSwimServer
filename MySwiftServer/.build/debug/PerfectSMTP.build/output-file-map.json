@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectSMTP.build/master.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-SMTP.git-9132372392332813665/Sources/SMTP.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectSMTP.build/SMTP.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectSMTP.build/SMTP.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectSMTP.build/SMTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectSMTP.build/SMTP.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "c16dd93864d7c8d5e91f1e75c5f80bf3"
+build_time: [553934845, 880268000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-RequestLogger.git--1289284945083235541/Sources/PerfectRequestLogger.swift": [553934356, 0]

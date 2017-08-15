@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ec33428c3283550afa8fe67bf911cb36"
+build_time: [553934729, 304039000]
+inputs:
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": !dirty [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": [553934356, 0]
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": [553934356, 0]

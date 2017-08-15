@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/master.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/cURL.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/cURL.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/cURL~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/cURL.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequest.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequest.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequest.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequestOptions.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequestOptions.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequestOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLRequestOptions.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponse.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponse.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponse.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponseInfos.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponseInfos.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponseInfos~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectCURL.build/CURLResponseInfos.swiftdeps"
+  }
+}

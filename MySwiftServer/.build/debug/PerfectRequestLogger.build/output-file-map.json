@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.build/master.swiftdeps"
+  },
+  "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/checkouts/Perfect-RequestLogger.git--1289284945083235541/Sources/PerfectRequestLogger.swift": {
+    "dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.build/PerfectRequestLogger.d",
+    "object": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.build/PerfectRequestLogger.swift.o",
+    "swiftmodule": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.build/PerfectRequestLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/qingclass/Desktop/swim/server/MySwiftServer/.build/debug/PerfectRequestLogger.build/PerfectRequestLogger.swiftdeps"
+  }
+}
