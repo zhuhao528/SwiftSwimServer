@@ -37,33 +37,33 @@ class MySQLConnect {
         }
     }
     
-    private var connect: MySQL!             //用于操作MySql的句柄
+    var dataMysql: MySQL!  = MySQL()            //用于操作MySql的句柄
     
     //MySQL句柄单例
-    private static var instance: MySQL!
-    public static func shareInstance(dataBaseName: String) -> MySQL{
-        if instance == nil {
-            instance = MySQLConnect(dataBaseName: dataBaseName).connect
+    private static var mySQLConnect: MySQLConnect!
+    public static func shareInstance(dataBaseName: String) -> MySQLConnect!{
+        if mySQLConnect == nil {
+            mySQLConnect = MySQLConnect()
         }
-        
-        return instance
+        mySQLConnect.useMysql(dataBaseName: dataBaseName)
+        return mySQLConnect
     }
     
-    private init(dataBaseName: String) {
+    private init() {
+        
+    }
+    
+    public func useMysql(dataBaseName: String){
         self.connectDataBase()
         self.selectDataBase(name: dataBaseName)
     }
     
-    
     /// 连接数据库
     private func connectDataBase() {
-        if connect == nil {
-            connect = MySQL()
-        }
         
-        let connected = connect.connect(host: "\(host)", user: user, password: password)
+        let connected = dataMysql.connect(host: "\(host)", user: user, password: password)
         guard connected else {// 验证一下连接是否成功
-            LogFile.error(connect.errorMessage())
+            LogFile.error(dataMysql.errorMessage())
             return
         }
         
@@ -76,8 +76,8 @@ class MySQLConnect {
     /// - Parameter name: Scheme名
     func selectDataBase(name: String){
         // 选择具体的数据Schema
-        guard connect.selectDatabase(named: name) else {
-            LogFile.error("数据库选择失败。错误代码：\(connect.errorCode()) 错误解释：\(connect.errorMessage())")
+        guard dataMysql.selectDatabase(named: name) else {
+            LogFile.error("数据库选择失败。错误代码：\(dataMysql.errorCode()) 错误解释：\(dataMysql.errorMessage())")
             return
         }
         
@@ -85,5 +85,6 @@ class MySQLConnect {
     }
     
     deinit {
+        
     }
 }

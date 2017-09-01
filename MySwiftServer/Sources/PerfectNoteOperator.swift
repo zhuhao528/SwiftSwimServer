@@ -23,7 +23,7 @@ class BaseOperator {
     let dataBaseName = "test"
     var mysql: MySQL {
         get {
-            return MySQLConnect.shareInstance(dataBaseName: dataBaseName)
+            return MySQLConnect.shareInstance(dataBaseName: dataBaseName).dataMysql
         }
     }
     var responseJson: [String : Any] = BaseResponseJson
